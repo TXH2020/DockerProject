@@ -12,5 +12,6 @@ To solve this problem, it is better to use an azure basic b1 service plan which 
 2. We can also use an azure mysql database instead of the local database to solve the above problem.But this requires changes in the source code
 3. Using Azure File Share for persistency of data has also proved problematic.
 4. Creating an App Insight Service that periodically pings the web app in order to prevent it from being idled out seems to be the best working solution so far.
+5. Running the container using Azure Container Instance is not free. However operating costs are extremely low, at about 0.3$ per month. Besides if we give never restart policy, we need not worry about the data getting lost.
 <br>
 The best approach is to have the source code in a github repository, build an image in Azure Container Registry using that source code, deploy a webapp based on that image and enable Continuous Integration to automatically reload the web app whenever the source code changes.
