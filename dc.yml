@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
    db:
-     image: dockercoolexp/osproject:latest
+     image: dockercoolexp/farmeasy:v1
      volumes:
        - db_data:/opt/lampp/var/mysql
     
