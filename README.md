@@ -1,9 +1,8 @@
-# DockerProject
+# DockerProject: Dockerizing my PHP project.
 
 Youtube link:
 https://youtu.be/sZp9X48Ktxs
 
-For complete details regarding project, see the OSProject Report.pdf file in the repo.
 
 Note: 
 1. The free app service plan on Azure has a limitation.
